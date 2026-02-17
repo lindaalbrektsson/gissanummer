@@ -1,0 +1,32 @@
+*{
+box-sizing:border-box
+}
+
+body{
+    background-color: #90cd90;
+}
+
+#game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+}
+
+#guessInput{
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+#guessButton, #resetButton{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+p{
+    font-size: 22px;
+    margin-top: 20px;
+}
